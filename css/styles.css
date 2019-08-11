@@ -1,0 +1,168 @@
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin:0;
+  background: url('../images/repeatbackground.png') center;
+
+}
+/*============= HERO section ===============*/
+.row{
+  margin: 0px !important;
+}
+.about{
+    padding:20px 15px;
+    width: 15vw;
+    min-width: 150px;
+    color: rgba(255,255,255,0.8);
+}
+.hero-wrapper{
+    height: 100%;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+}
+
+.parallax { 
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top:0px;
+  left: 0px;
+}
+
+.hero-text {
+  text-align: center;
+  color: white;
+}
+
+/*====== Navigation bar ==================*/
+.nav-font{
+  font-size: 1.3em;
+  color:rgba(255,255,255,0.8);
+}
+
+nav{
+    position: sticky;
+    top: 0px
+}
+nav .nav-item{
+    margin-left: 10px;
+}
+nav ul{
+    margin-right: 15px;
+}
+/*=============== general =========*/
+.transform-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.transform-top{
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+}
+.drop-shadow{
+  box-shadow: 2px 2px 10px #333;
+}
+.title-s {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+}
+
+/*=========== ABout box=========*/
+#about-box{
+  margin-top:-2.3em;
+  text-align: left;
+}
+#about-box .card{
+  max-width: 60%;
+}
+/*============= Skills ============*/
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+.skill-mf span {
+  color: #4e4e4e;
+}
+
+.skill-mf .progress {
+  background-color: #cde1f8;
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .7rem;
+  background-color: #0078ff;
+}
+/*==================== FOOTER ====================*/
+
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-color: #dedede;
+}
+
+#lab_social_icon_footer a {
+  color: #333;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
