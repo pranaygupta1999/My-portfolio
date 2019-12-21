@@ -173,7 +173,9 @@ nav ul{
 #lab_social_icon_footer #social-li:hover {
   color: #4099FF;
 }
-
+#lab_social_icon_footer #social-gh:hover {
+  color: #000;
+}
 #lab_social_icon_footer #social-gp:hover {
   color: #d34836;
 }
